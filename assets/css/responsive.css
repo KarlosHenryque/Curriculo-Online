@@ -1,0 +1,222 @@
+/* Tablets 768px */
+@media screen and (max-width: 768px) {
+
+    /* Ajustando o container */
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* Ajustando o nome */
+    .container .h-name h1 {
+        font-size: 36px;
+    }
+
+    .container .h-name h2 {
+        font-size: 26px;
+    }
+
+    /* Sobre */
+    .container .h-sobre .h-title-sobre h2 {
+        font-size: 22px;
+    }
+
+    .container .h-sobre .paragraf {
+        font-size: 16px;
+    }
+
+    /* Experiência */
+    .container .h-experiencia .h-title-experiencia h2 {
+        font-size: 22px;
+    }
+
+    .container .h-experiencia .h-itens .item {
+        flex-direction: column; /* Exibe em coluna para otimizar o espaço */
+        margin-bottom: 30px;
+    }
+
+    .container .h-experiencia .h-itens .item .work {
+        width: 100%; /* Expande para a largura total em telas menores */
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .container .h-experiencia .h-itens .item .description {
+        width: 100%;
+    }
+
+    .container .h-experiencia .h-itens .item .work h2,
+    .container .h-experiencia .h-itens .item .description h2 {
+        font-size: 20px;
+    }
+
+    .container .h-experiencia .h-itens .item .description p {
+        font-size: 16px;
+    }
+
+    /* Educação */
+    .container .h-educacao .h-title-educacao h2 {
+        font-size: 22px;
+    }
+
+    .container .h-educacao .item .title h2 {
+        font-size: 20px;
+    }
+
+    .container .h-educacao .item .title span {
+        font-size: 20px;
+    }
+
+    /* Habilidades */
+    .container .h-habilidades .h-title-habilidades h2 {
+        font-size: 22px;
+    }
+
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: column; /* Organizando as habilidades em coluna */
+        align-items: flex-start; /* Alinhando as habilidades à esquerda */
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .container .h-habilidades .item .icon {
+        width: 100%;
+        height: 18px;
+        max-width: 80%; /* Ajustando a largura */
+    }
+
+    .container .h-habilidades .item .icon .percentual-10 {
+        width: 80%; /* Percentual ajustado para visualização em tablet */
+    }
+
+    .container .h-habilidades .item h2 {
+        font-size: 16px;
+    }
+
+    /* Contato */
+    .container .h-contato .h-title-contato h2 {
+        font-size: 22px;
+    }
+
+    .container .h-contato .item h2 {
+        font-size: 16px;
+    }
+
+    .container .h-contato .item p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile 425px */
+@media screen and (max-width: 425px) {
+
+    /* Ajustando o container */
+    .container {
+        width: 95%;
+    }
+
+    /* Nome */
+    .container .h-name {
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+
+    .container .h-name h1 {
+        font-size: 28px;
+    }
+
+    .container .h-name h2 {
+        font-size: 20px;
+    }
+
+    /* Sobre */
+    .container .h-sobre .h-title-sobre h2 {
+        font-size: 20px;
+    }
+
+    .container .h-sobre .paragraf {
+        font-size: 14px;
+    }
+
+    /* Experiência */
+    .container .h-experiencia .h-title-experiencia h2 {
+        font-size: 20px;
+    }
+
+    .container .h-experiencia .h-itens .item {
+        flex-direction: column; /* Exibe em coluna para otimizar o espaço */
+        margin-bottom: 20px;
+    }
+
+    .container .h-experiencia .h-itens .item .work {
+        width: 100%; /* Expande para a largura total */
+        margin-bottom: 15px;
+    }
+
+    .container .h-experiencia .h-itens .item .description {
+        width: 100%;
+    }
+
+    .container .h-experiencia .h-itens .item .work h2,
+    .container .h-experiencia .h-itens .item .description h2 {
+        font-size: 18px;
+    }
+
+    .container .h-experiencia .h-itens .item .description p {
+        font-size: 14px;
+    }
+
+    /* Educação */
+    .container .h-educacao .h-title-educacao h2 {
+        font-size: 20px;
+    }
+
+    .container .h-educacao .item .title h2 {
+        font-size: 18px;
+    }
+
+    .container .h-educacao .item .title span {
+        font-size: 18px;
+    }
+
+    /* Habilidades */
+    .container .h-habilidades .h-title-habilidades h2 {
+        font-size: 20px;
+    }
+
+    .container .h-habilidades .item {
+        display: flex;
+        flex-direction: column; /* Organiza as habilidades em coluna */
+        align-items: flex-start; /* Alinhando as habilidades à esquerda */
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .container .h-habilidades .item .icon {
+        width: 100%;
+        height: 15px;
+        max-width: 70%;
+    }
+
+    .container .h-habilidades .item .icon .percentual-10 {
+        width: 70%;
+    }
+
+    .container .h-habilidades .item h2 {
+        font-size: 14px;
+    }
+
+    /* Contato */
+    .container .h-contato .h-title-contato h2 {
+        font-size: 20px;
+    }
+
+    .container .h-contato .item h2 {
+        font-size: 14px;
+    }
+
+    .container .h-contato .item p {
+        font-size: 14px;
+    }
+}
